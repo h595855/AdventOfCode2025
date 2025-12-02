@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <AssemblyName>AdventOfCode2025</AssemblyName>
+        <RootNamespace>AdventOfCode2025</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.8"/>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\AdventOfCodeDal\AdventOfCodeDal.csproj" />
+        <ProjectReference Include="..\AdventOfCodeLogic\AdventOfCodeLogic.csproj" />
+    </ItemGroup>
+
+</Project>
