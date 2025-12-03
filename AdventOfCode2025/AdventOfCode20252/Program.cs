@@ -11,7 +11,7 @@ builder.Services.AddSwaggerGen();
 
 // Register controllers and app services so controllers can be resolved by DI
 builder.Services.AddControllers();
-builder.Services.AddScoped<day1Dal>();
+builder.Services.AddScoped<Day1Dal>();
 builder.Services.AddScoped<Day1Logic>();
 
 var app = builder.Build();

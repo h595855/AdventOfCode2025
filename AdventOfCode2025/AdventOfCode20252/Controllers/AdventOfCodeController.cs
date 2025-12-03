@@ -17,7 +17,7 @@ namespace AdventOfCode2025.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            var result = _logic.day1Part1();
+            var result = _logic.Day1Part1();
             return Ok(result);
         }
     }
