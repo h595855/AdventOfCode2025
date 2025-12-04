@@ -14,7 +14,7 @@ namespace AdventOfCodeDal.Day1Data
 
             var candidates = new[]
             {
-                Path.GetFullPath(@"C:\Users\beide\RiderProjects\AdventOfCode2025\AdventOfCode2025\AdventOfCodeDal\Day1Data\day1Data.txt")
+                Path.GetFullPath("**/AdventOfCode2025/AdventOfCodeDal/Day1Data/day1Data.txt")
             }
             .Select(Path.GetFullPath)
             .Distinct()
